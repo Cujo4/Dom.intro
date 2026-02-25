@@ -1,0 +1,79 @@
+/* body {
+    min-height: 100vh;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    border: 5px solid green;
+    padding: 30px;
+}
+
+.div {
+    border: 5px solid green;
+    padding: 30px;
+}
+
+.div2 {
+    background-color: grey;
+}
+
+.headBorder {
+    border: 5px solid red;
+}
+
+.burgerMenuContainerHide {
+    border: 5px solid green;
+}
+
+.burgerMenuContainerActive {
+    border: 5px solid orange;
+} */
+
+/* //////////////////////////////////////////////////////// */
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: sans-serif;
+    --user-img-size: 100px;
+}
+
+.userCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    box-shadow: grey 0 0 5px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.userImg {
+    width: var(--user-img-size);
+    height: var(--user-img-size);
+    border-radius: 50%;
+    border: 2px solid violet;
+    object-fit: cover;
+}
+
+.userInfo {
+}
+
+.userName {
+}
+
+.userAge {
+    color: grey;
+}
+
+.trashIcon {
+    margin-left: auto;
+}
